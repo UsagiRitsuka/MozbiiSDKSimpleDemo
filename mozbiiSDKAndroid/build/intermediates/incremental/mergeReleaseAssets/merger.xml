@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Usagi/Desktop/Wachi/test/MozbiiSDK_Test/mozbiiSDKAndroid/src/main/assets"/><source path="/Users/Usagi/Desktop/Wachi/test/MozbiiSDK_Test/mozbiiSDKAndroid/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/Usagi/Desktop/Wachi/test/MozbiiSDK_Test/mozbiiSDKAndroid/src/release/assets"/></dataSet></merger>
