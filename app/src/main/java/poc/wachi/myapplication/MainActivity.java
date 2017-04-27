@@ -1,15 +1,12 @@
 package poc.wachi.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.ufro.android.mozbiisdk.MozbiiBleCallBack;
 import com.ufro.android.mozbiisdk.MozbiiBleWrapper;
 
-import org.w3c.dom.Text;
-
-public class MainActivity extends AppCompatActivity implements MozbiiBleCallBack{
+public class MainActivity extends PermissionActivity implements MozbiiBleCallBack{
     private MozbiiBleWrapper wrapper;
     private TextView status;
     private TextView text;
@@ -29,6 +26,11 @@ public class MainActivity extends AppCompatActivity implements MozbiiBleCallBack
             // do log
         }
 
+
+    }
+
+    @Override
+    protected void startScan() {
         wrapper.startScanning();
     }
 
